@@ -31,7 +31,6 @@ header {
   max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
-  background: #fff;
 }
 
 .about-left,
@@ -40,7 +39,6 @@ header {
   min-width: 280px;
   padding: 20px;
   color: #000;
-  background: #fff;
 }
 
 .bio p {
@@ -53,35 +51,40 @@ ul {
   margin-bottom: 15px;
 }
 
-.section-heading {
+.blue-heading {
   color: #1e3c72;
-  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .image-caption {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 10px;
-  font-style: italic;
+  font-weight: bold;
 }
 
-.bottom-image {
+.project-img {
   width: 100%;
-  max-width: 100%;
+  max-width: 350px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.extra-img {
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 footer {
-  background-color: #f5f5f5;
-  text-align: center;
+  width: 100%;
   padding: 20px 0;
+  text-align: center;
+  background: #f4f4f4;
   border-top: 1px solid #ccc;
-  font-size: 1em;
-  color: #000;
+  font-size: 0.9em;
 }
 
-.footer-name {
+.blue-text {
   color: #1e3c72;
-  font-weight: bold;
 }
